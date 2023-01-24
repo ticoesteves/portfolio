@@ -383,7 +383,7 @@ h6 {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 10px;
-    width: 100%;
+    width: 90%;
     max-width: 1120px;
     margin: 0 auto;
     padding: 0px;
