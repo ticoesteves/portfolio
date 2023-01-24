@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<header class="header">
+    <div class="content_header">
+        <div class="logo">
+            <a href="#home"><img src="assets/img/logotipo.png" alt="Tico Esteves"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Conhecimentos</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="nav__mobile">
+                <li class="nav__mobile--icon">
+                    <a href="javascript:MostraMenuMobile()">&#9776;</a>
+                </li>
+                <div id="menu_mobile" class="menu__mobile" style="display: none">
+                    <a href="javascript:MostraMenuMobile()" class="nav__mobile--icon close_menu">&#9747;</a>
+                    <ul>
+                        <li class="nav__mobile--link"><a href="#home">Home</a></li>
+                        <li class="nav__mobile--link"><a href="#about">Sobre</a></li>
+                        <li class="nav__mobile--link"><a href="#skills">Conhecimentos</a></li>
+                        <li class="nav__mobile--link"><a href="#projects">Projetos</a></li>
+                        <li class="nav__mobile--link"><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<body class="content_body">
+    <section id="home" class="section_one">
+        <div class="content_section_one">
+            <div class="section_one_left">
+                <img src="assets/img/tico_esteves_mascote.png" alt="Tico Esteves"><br/>
+                <a class="about_me" href="#about">Saiba mais sobre mim!</a>
+            </div>
+            <div class="section_one_right">
+                <span class="hello">Olá, eu sou</span>
+                <span class="tico_esteves">Tico Esteves</span>
+                <h2 class="typed-out">Desenvolvedor web<h2>
+                <h1>{Frontend</h1>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section_two">
+        <h2>Sobre mim.</h2>
+        <div class="content_section_two">
+            <div>
+                <p>
+                    Meu nome é <span class="name">Tico Esteves</span> e sou um apaixonado por tecnologia.
+                </p>
+                    O meu primeiro contato com programação foi por volta de 2010, onde desenvolvia layouts para o Blogger, uma ferramenta gratuita de publicação de blogs (que estava em alta na época). Depois passei para o WordPress ao mesmo tempo em que focava nos estudos do básico (HTML, CSS e JavaScript). 
+                <p>
+                    Por conta das voltas que a vida dá, acabei seguindo outros rumos, mas...
+                </p>
+                Quando o amor é verdadeiro, um dia a gente se encontra novamente!
+                <p>
+                    E foi em 2021 que tive a oportunidade de voltar a estudar programação e estou firme nesse propósito. Adoro a programação front-end e o fato de dar vida ao que antes era "só" uma ideia, uma imagem!
+                </p>
+                Já trabalhei como designer, gestor de redes sociais, 
+                web designer e web master. 
+                <p>
+                    Hoje, trabalho prestando serviços para pequenas empresas, 
+                    profissionais liberais e estou em busca de novos desafios!
+                </p>
+            </div>
+            <div>
+                <img src="assets/img/about_tico_esteves.png" alt="Tico Esteves" />
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="section_tree">
+        <h2>Conhecimentos</h2>
+        <div class="content_section_tree">
+            <div>
+                <abbr class="hover_img_skills" title="HTML5"><img  onclick="mostraModalHTML()" src="assets/img/HTML.png" alt="HTML"></abbr>
+                <dialog id="modal_html">
+                    HTML (Linguagem de Marcação de HiperTexto) é o bloco de 
+                    construção mais básico da web. Define o significado e a 
+                    estrutura do conteúdo da web.
+                    <button class="button_close_modal" onclick="fechaModalHTML()">X</button>
+                </dialog>
+            </div>
+            <div>
+                <abbr class="hover_img_skills" title="CSS"><img onclick="mostraModalCSS()" src="assets/img/CSS.png" alt="CSS"></abbr>
+                <dialog id="modal_css">
+                    CSS é uma linguagem baseada em regras onde você define 
+                    regras especificando grupos de estilo que devem ser aplicados 
+                    para elementos particulares ou grupos de elementos na sua 
+                    página web.
+                    <button class="button_close_modal" onclick="fechaModalCSS()">X</button>
+                </dialog>
+            </div>
+            <div>
+                <abbr class="hover_img_skills" title="JAVASCRIPT"><img onclick="mostraModalJS()" src="assets/img/javascript.png" alt="JavaScript"></abbr>
+                <dialog id="modal_js">
+                    JavaScript é uma linguagem de programação que permite a você 
+                    implementar itens complexos em páginas web. Toda vez que uma página 
+                    da web faz mais do que simplesmente mostrar a você informação 
+                    estática, mostrando conteúdo que se atualiza em um intervalo de 
+                    tempo, mapas interativos ou gráficos 2D/3D animados, etc. Você está 
+                    interagindo com JavaScript.
+                    <button class="button_close_modal" onclick="fechaModalJS()">X</button>
+                </dialog>
+            </div>
+            <div>
+                <abbr class="hover_img_skills" title="BOOTSTRAP"><img onclick="mostraModalBOOTSTRAP()" src="assets/img/bootstrap.png" alt="Bootstrap"></abbr>
+                <dialog id="modal_bootstrap">
+                    Bootstrap é um framework front-end que fornece estruturas de 
+                    CSS para a criação de sites e aplicações responsivas de 
+                    forma rápida e simples. Além disso, pode lidar com sites 
+                    de desktop e páginas de dispositivos móveis da mesma forma.
+                    <button class="button_close_modal" onclick="fechaModalBOOTSTRAP()">X</button>
+                </dialog>
+            </div>
+            <div>
+                <abbr class="hover_img_skills" title="BLOGGER"><img onclick="mostraModalBLOGGER()" src="assets/img/blogger.png" alt="Blogger"></abbr>
+                <dialog id="modal_blogger">
+                    O Blogger é uma plataforma que permite criar blogs e é uma 
+                    das opções mais usadas pelos iniciantes em produção de 
+                    conteúdo para web. Geralmente, os blogs criados no Blogger 
+                    são hospedados pelo próprio Google, em um subdomínio 
+                    blogspot.com.
+                    <button class="button_close_modal" onclick="fechaModalBLOGGER()">X</button>
+                </dialog>
+            </div>
+            <div>
+                <abbr class="hover_img_skills" title="WORDPRESS"><img onclick="mostraModalWORDPRESS()" src="assets/img/wordpress.png" alt="WordPress"></abbr>
+                <dialog id="modal_wordpress">
+                    O WordPress é, basicamente, um CMS (Content Management System), 
+                    que em português significa Sistema de Gerenciamento de Conteúdo. 
+                    Em outras palavras, é um sistema usado para administrar sites, 
+                    blogs, lojas virtuais, portais de notícia, áreas de membros e 
+                    outros tipos de página.
+                    <button class="button_close_modal" onclick="fechaModalWORDPRESS()">X</button>
+                </dialog>
+            </div>
+            <div>
+                <abbr class="hover_img_skills" title="BUBBLE"><img onclick="mostraModalBUBBLE()" src="assets/img/bubble.png" alt="Bubble"></abbr>
+                <dialog id="modal_bubble">
+                    Bubble.io é uma plataforma online de desenvolvimento de 
+                    aplicações web, integrada com linguagem de programação 
+                    visual, ambiente de desenvolvimento de aplicação intuitiva 
+                    de WebApps (sem necessidade de programação por código) e, 
+                    serviço de hospedagem, desenvolvida pelo Bubble Group.
+                    <button class="button_close_modal" onclick="fechaModalBUBBLE()">X</button>
+                </dialog>
+            </div>
+            <div>
+                <abbr class="hover_img_skills" title="INKSCAPE"><img onclick="mostraModalINKSCAPE()" src="assets/img/inkscape.png" alt="Inkscape"></abbr>
+                <dialog id="modal_inkscape">
+                    O Inkscape é um programa de gráficos vetoriais de qualidade 
+                    profissional que roda em Windows, Mac OS X e GNU/Linux. É 
+                    usado por entusiastas e profissionais de design em todo o 
+                    mundo, para a criação de uma grande variedade de gráficos, 
+                    tais como ilustrações, ícones, logotipos, diagramas, mapas 
+                    e gráficos da web.
+                    <button class="button_close_modal" onclick="fechaModalINKSCAPE()">X</button>
+                </dialog>
+            </div>
+            <div>
+                <abbr class="hover_img_skills" title="PHOTOSHOP"><img onclick="mostraModalPHOTOSHOP()" src="assets/img/photoshop.png" alt="PhotoShop"></abbr>
+                <dialog id="modal_photoshop">
+                    O Photoshop é um software da multinacional americana Adobe 
+                    Inc. usado para edição de imagens, criação de arte digital, 
+                    design gráfico e animações. A multiplicidade de usos do 
+                    software faz com que o Photoshop seja uma ferramenta de 
+                    trabalho para diversos tipos de profissionais.
+                    <button class="button_close_modal" onclick="fechaModalPHOTOSHOP()">X</button>
+                </dialog>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section_four">
+        <h2>Projetos</h2>
+        <p>
+            Alguns projetos que tive envolvimento, seja como desenvolvedor front-end,
+            seja como freelancer ou mesmo prestando serviços para agências.
+        </p>
+        <div class="content_section_four square">
+            <div class="feactured_project square-wrapper">
+                <a href="https://www.agenciagrati.online" target="_blank"><img class="square" src="assets/img/agenciagrati.png" alt=""></a>
+                <div class="tecnology_description">
+                    &#10174; Agência GRATI: <a href="https://www.agenciagrati.online" target="_blank">Visite o Site</a>
+                    <h5>Tecnologias empregadas:</h5>
+                    <ul>
+                        &#10139; HTML<br>
+                        &#10139; CSS<br>
+                        &#10139; JAVASCRIPT<br>
+                    </ul> 
+                </div>
+            </div>
+            <div class="under_development">
+                <img src="assets/img/emdesenvolvimento.png" alt="">
+                <img src="assets/img/emdesenvolvimento.png" alt="">
+                <img src="assets/img/emdesenvolvimento.png" alt="">
+            </div>
+        </section>
+        <section id="contact" class="section_five">
+            <h2>Contato</h2>
+            <div class="content_section_five">
+                <div>
+                    <h3>Vamos agilizar o desenvolvimento dos seus projetos?</h3>
+                    <p>
+                        Utilize o formulário de contato ao lado ou me encontre nas 
+                        redes sociais e em meu blog clicando nos ícones abaixo:
+                    </p>
+                </div>
+                <div>
+                    <form class="form" action="https://formspree.io/f/xdovkvjj" method="post">
+                        <fieldset>
+                            <label class="label_form">Nome:</label><br>
+                            <input type="text" class="input_name" required><br>
+                            <label class="label_form">E-mail:</label><br>
+                            <input type="email" class="input_email" required><br>
+                            <label class="label_form">Mensagem:</label><br>
+                            <textarea name="message" class="message_form" id="message" cols="20" rows="7"></textarea><br>
+                            <button type="submit" class="submit_form">Enviar</button>                    
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer>
+    <div class="content_footer">
+        <nav>
+            <ul class="menu_footer">
+                <li><abbr class="hover_img_skills" title="INSTAGRAM"><a href="https://www.instagram.com/noitariosdeumnerd/" target="_blank"><img src="assets/img/instagram.png" alt="Instagram"></a></abbr></li>
+                <li><abbr class="hover_img_skills" title="BLOG"><a href="https://noitariosdeumnerd.blogspot.com/" target="_blank"><img src="assets/img/blog.png" alt="Blog"></a></abbr></li>
+                <li><abbr class="hover_img_skills" title="LINKEDIN"><a href="https://www.linkedin.com/in/tico-esteves-7b6969161/" target="_blank"><img src="assets/img/linkedin.png" alt="Linkedin"></a></abbr></li>
+                <li><abbr class="hover_img_skills" title="GITHUB"><a href="https://github.com/ticoesteves" target="_blank"><img src="assets/img/github.png" alt="Github"></a></abbr></li>
+            </ul>
+        </nav>
+        <div class="logo_footer">
+            <a href="#home"><img src="assets/img/logotipo.png" alt="Tico Esteves"></a>
+        </div>
+        <div class="copyright">
+            &#169; Tico Esteves | Todos os direitos reservados.
+        </div>
+    </div>
+</footer>
+<script src="assets/js.js"></script>
+<script>AOS.init();</script>
+</body>
+</html>
