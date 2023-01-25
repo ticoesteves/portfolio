@@ -456,6 +456,7 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     width: 100%;
+    align-items: center;
 }
 .menu_footer img {
     width: 100%;
@@ -622,17 +623,19 @@ dialog {
     }
     .section_one, .section_two, .section_tree, .section_four, .section_five {
         grid-template-columns: 1fr;
-        min-width: 100%;
+        grid-gap: 0px;
+        max-width: 94%;
         margin: 0px;
+        padding-right: 3%;
+        padding-left: 3%;
     }
     .content_section_one, .content_section_two, .content_section_tree, .content_section_four {
         display: block;
-    }
-    .section_one {
-        height: 110vh;
+        grid-gap: 0px;
     }
     .section_one_left img {
-        left: 11%;
+        left: 0%;
+        top: 5%;
     }
     .section_one_right {
         width: 100%;
@@ -641,6 +644,7 @@ dialog {
     .hello {
         display: block;
         text-align: right;
+        margin-top: -18%;
         margin-left: 50%;
     }
     .section_one_right h1 {
@@ -648,7 +652,7 @@ dialog {
         font-size: 3em;
     }
     .about_me {
-        top: 95%;
+        top: 93%;
         left: 17%;
         margin: 0 auto;
         font-size: 23px;
@@ -682,8 +686,12 @@ dialog {
         margin: 0 auto;
         padding: 0px;
     }
+    .section_five h3 {
+        color: #fff;
+        font-size: 2em;
+    }
     .form {
-        width: 80%;
+        width: 70%;
     }
     dialog {
         width: 50%;
