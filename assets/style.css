@@ -248,7 +248,7 @@ h6 {
     color: #000;
     font-weight: bold;
 }
-.section_tree {
+.section_three {
     background-color: #343746;
     text-align: left;
     color: #EDEEF1;
@@ -257,13 +257,13 @@ h6 {
     -webkit-box-shadow: inset 0px 10px 20px #000;
     -moz-box-shadow: inset 0px 10px 20px #000;
 }
-.section_tree h2 {
+.section_three h2 {
     max-width: 1120px;
     margin: 0 auto;
     text-align: left;
     padding-bottom: 30px;
 }
-.section_tree img {
+.section_three img {
     cursor: pointer;
 }
 .content_section_tree {
@@ -276,13 +276,13 @@ h6 {
     margin: 0 auto;
     padding: 0px;
 }
-.section_tree img {
+.section_three img {
     -webkit-animation: fadeIn 3s ease-in-out;
     -moz-animation: fadeIn 3s ease-in-out;
     -o-animation: fadeIn 3s ease-in-out;
     animation: fadeIn 3s ease-in-out;
 }
-.section_tree img:hover {
+.section_three img:hover {
     transform: scale(0.9);
     transition: 300ms linear; 
 }
@@ -660,12 +660,12 @@ dialog {
         margin: 0 auto;
         font-size: 23px;
     }
-    .content_section_tree {
+    .content_section_three {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
     }
-    .content_section_tree img {
+    .content_section_three img {
         width: 80%;
     }
     .feactured_project {
