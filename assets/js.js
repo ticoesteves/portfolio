@@ -1,10 +1,10 @@
 // Janelas modais dos "Conhecimentos"
-function openModal (nomeModal) {
-    let modal = document.getElementById(nomeModal);
+function openModal (idModal) {
+    let modal = document.getElementById(idModal);
     modal.showModal();
 }
-function closeModal(nomeModal) {
-    let modal = document.getElementById(nomeModal);
+function closeModal(idModal) {
+    let modal = document.getElementById(idModal);
     modal.close();
 }
 // Fim janelas modais dos "Conhecimentos"
