@@ -25,7 +25,7 @@ const observer = new IntersectionObserver(entries => {
   });
   observer.observe(document.querySelector('.square-wrapper'));
 
-function MostraMenuMobile() {
+function showHideMenu() {
     var menu = document.getElementById('menu_mobile');
 
     if(menu.style.display == 'none') {
