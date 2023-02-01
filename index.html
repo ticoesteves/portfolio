@@ -27,10 +27,10 @@
             </ul>
             <div class="nav__mobile">
                 <li class="nav__mobile--icon">
-                    <a href="javascript:MostraMenuMobile()">&#9776;</a>
+                    <a href="javascript:showHideMenu();">&#9776;</a>
                 </li>
                 <div id="menu_mobile" class="menu__mobile" style="display: none">
-                    <a href="javascript:MostraMenuMobile()" class="nav__mobile--icon close_menu">&#10006;</a>
+                    <a href="javascript:showHideMenu();" class="nav__mobile--icon close_menu">&#10006;</a>
                     <ul>
                         <li class="nav__mobile--link"><a href="#home">Home</a></li>
                         <li class="nav__mobile--link"><a href="#about">Sobre</a></li>
@@ -48,7 +48,7 @@
         <div class="content_section_one">
             <div class="section_one_left">
                 <img src="assets/img/tico_esteves_mascote.png" alt="Tico Esteves"><br/>
-                <a class="about_me" href="#about">Saiba mais sobre mim!</a>
+                <a class="about_me" href="#skills">Saiba mais &#10170;</a>
             </div>
             <div class="section_one_right">
                 <span class="hello">Olá, eu sou</span>
@@ -87,7 +87,68 @@
     </section>
     <section id="skills" class="section_three">
         <h2>Conhecimentos</h2>
+        <div class="legend__skills">
+            <div>
+                <span class="basic__skill">&#9744;</span>
+                Básico
+            </div>
+            <div>
+                <span class="intermediary__skill">&#9744;</span>
+
+                Intermediário
+            </div>
+            <div>
+                <span class="advanced__skill">&#9744;</span>
+                Avançado
+            </div>
+            <div>
+                <span class="motherfucker__skill">&#9744;</span>
+                Pica das galáxias
+            </div>
+        </div>
         <div class="content_section_three">
+            <div>
+                <h4>HTML5</h4> 
+                <div class="html__skills"></div>
+            </div> 
+            <div>
+                <h4>CSS3</h4>
+                <div class="css__skills"></div>
+            </div>
+            <div>
+                <h4>JavaScript</h4> 
+                <div class="js__skills"></div>
+            </div> 
+            <div>
+                <h4>React</h4> 
+                <div class="js__skills"></div>
+            </div> 
+            <div>
+                <h4>Bootstrap</h4>
+                <div class="bootstrap__skills"></div>
+            </div>
+            <div>
+                <h4>Blogger</h4> 
+                <div class="blogger__skills"></div>
+            </div> 
+            <div>
+                <h4>WordPress</h4>
+                <div class="wordpress__skills"></div>
+            </div>
+            <div>
+                <h4>Bubble</h4> 
+                <div class="bubble__skills"></div>
+            </div> 
+            <div>
+                <h4>Inkscape</h4>
+                <div class="inkscape__skills"></div>
+            </div>
+            <div>
+                <h4>Photoshop</h4>
+                <div class="photoshop__skills"></div>
+            </div>
+        </div>
+        <div class="content_section_three--img">
             <div>
                 <abbr class="hover_img_skills" title="HTML5"><img  onclick="openModal('modal_html');" src="assets/img/html.png" alt="HTML"></abbr>
                 <dialog id="modal_html">
@@ -117,6 +178,17 @@
                     tempo, mapas interativos ou gráficos 2D/3D animados, etc. Você está 
                     interagindo com JavaScript.
                     <button class="button_close_modal" onclick="closeModal('modal_js');">X</button>
+                </dialog>
+            </div>
+            <div>
+                <abbr class="hover_img_skills" title="REACT"><img onclick="openModal('modal_react');" src="assets/img/react.png" alt="React"></abbr>
+                <dialog id="modal_react">
+                    O React é a biblioteca mais popular do JavaScript e é usada para 
+                    construir uma interface de usuário (IU). Ela oferece uma resposta 
+                    excelente para o usuário adicionar comandos usando um novo método 
+                    de renderizar sites. Os componentes dessa ferramenta foram desenvolvidos 
+                    pelo Facebook.
+                    <button class="button_close_modal" onclick="closeModal('modal_react');">X</button>
                 </dialog>
             </div>
             <div>
@@ -207,11 +279,20 @@
                     </ul> 
                 </div>
             </div>
-            <div class="under_development">
-                <a href="https://ticoesteves.github.io/calculadora-imc/" target="_blank"><img src="assets/img/calculadora_imc.png" alt=""></a>
-                <a href="https://ticoesteves.github.io/menu/" target="_blank"><img src="assets/img/menu_fixo.png" alt=""></a>
-                <a href="" target="_blank"><img src="assets/img/emdesenvolvimento.png" alt=""></a>
-                <a href="" target="_blank"><img src="assets/img/emdesenvolvimento.png" alt=""></a>
+            <h2>Outros Projetos</h2>
+            <div class="content_section_four square">
+                <div class="under_development">
+                    <figure>
+                        <figcaption>Calculadora IMC feita em REACT JS</figcaption>
+                        <a href="https://ticoesteves.github.io/calculadora-imc/" target="_blank"><img src="assets/img/calculadora_imc.png" alt=""></a>
+                    </figure>
+                    <figure>
+                        <figcaption>Menu Fixo com HTML e CSS</figcaption>
+                        <a href="https://ticoesteves.github.io/menu/" target="_blank"><img src="assets/img/menu_fixo.png" alt=""></a>
+                    </figure>
+                    <a href="" target="_blank"><img src="assets/img/emdesenvolvimento.png" alt=""></a>
+                    <a href="" target="_blank"><img src="assets/img/emdesenvolvimento.png" alt=""></a>
+                </div>
             </div>
         </section>
         <section id="contact" class="section_five">
@@ -220,7 +301,7 @@
                 <div>
                     <h3>Vamos agilizar o desenvolvimento dos seus projetos?</h3>
                     <p>
-                        Utilize o formulário de contato ao lado ou me encontre nas 
+                        Utilize o formulário de contato ou me encontre nas 
                         redes sociais e em meu blog clicando nos ícones abaixo:
                     </p>
                 </div>
