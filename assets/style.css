@@ -602,7 +602,7 @@ dialog {
     margin: 0 auto;
     padding: 60px;
     text-align: center;
-    border-radius: 100px;
+    border-radius: 25px;
 }
 
 #modal__html {
