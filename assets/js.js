@@ -12,9 +12,11 @@ const observer = new IntersectionObserver(entries => {
       const square = entry.target.querySelector('.square');
   
       if (entry.isIntersecting) {
+
         square.classList.add('square-transition');
         return; 
     }
+
         square.classList.remove('square-transition');
     });
   });
