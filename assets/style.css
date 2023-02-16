@@ -733,6 +733,10 @@ dialog {
         width: 100%;
     }
 
+    #about .right {
+        display: none;
+    }
+
     .about__mobile__img {
         display: block;
     }    
