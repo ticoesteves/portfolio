@@ -243,6 +243,7 @@ nav {
 }
 
 #about .content {
+    align-items: end;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -254,7 +255,7 @@ nav {
 
 #about .right img {
     width: 100%;
-    bottom: 0;
+    margin-bottom: -5px;
 }
 
 #about h2 {
