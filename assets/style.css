@@ -239,11 +239,17 @@ nav {
     padding: 6rem 0 0 0;
     color: var(--whiteColor);
     background-color: var(--secundaryColor);
-    background-image: url("../assets/img/background_about.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-attachment: fixed;
     border-top: 50px solid var(--inkscapeBorderColor)
+}
+
+#about .content {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#about .right {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #about h2 {
