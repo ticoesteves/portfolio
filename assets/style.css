@@ -252,6 +252,11 @@ nav {
     padding-bottom: 0;
 }
 
+#about .right img {
+    width: 100%;
+    bottom: 0;
+}
+
 #about h2 {
     margin-bottom: 2rem;
 }
