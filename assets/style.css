@@ -10,36 +10,36 @@
     --maxContentWhidth: 1200px;
     --primaryColor:#698EC0;
     --secundaryColor:#343746;
-    --blackColor: #000;
+    --whiteColor: #fff;
     --grayColor: #EDEEF1;
     --grayColorTwo: #717171;
-    --whiteColor: #fff;
+    --grayColorThree: #717171;
+    --blackColor: #000;
     --blueColor: #00BFFF;
-    --blueDarkColor: #4169E1;
+    --blueColorTwo: #4169E1;
+    --blueColorThree: #0082C1;
+    --blueColorFour: #006698;
+    --blueColorFive: #61DAFB;
+    --blueColorSix: #398398;
+    --blueColorSeven: #0091D8;
+    --blueColorEight: #0072A4;
+    --blueColorNine: #3E3AF9;
+    --blueColorTen: #7578FD;
+    --blueColorEleven: #001834;
+    --blueColorTwelve: #00AAFF;
     --greenColor: #50FA7B;
-    --greenDarkColor: #228B22;
-    --yellowColor: #FFFF00;
+    --greenColorTwo: #228B22;
+    --lilacColor: #A279DB;
+    --lilacColorTwo: #6C38B9;
     --orangeColor: #FF8C00;
+    --orangeColorTwo: #FCA46C;
+    --orangeColorThree: #F15931;
+    --orangeColorFour: #FF8F44;
+    --orangeColorFive: #FE6600;
     --redColor: #8F0B03;
-    --htmlBgColor: #FCA46C;
-    --htmlBorderColor: #F15931;
-    --cssBgColor: #0082C1;
-    --cssBorderColor: #006698;
-    --jsBgColor: #FFF4C5;
-    --jsBorderColor: #FEDA3E;
-    --reactBgColor: #61DAFB;
-    --reactBorderColor: #398398;
-    --bootstrapBgColor: #A279DB;
-    --bootstrapBorderColor: #6C38B9;
-    --bloggerBgColor: #FF8F44;
-    --bloggerBorderColor: #FE6600;
-    --wordpressBgColor: #0091D8;
-    --wordpressBorderColor: #0072A4;
-    --bubbleBgColor: #3E3AF9;
-    --bubbleBorderColor: #7578FD;
-    --inkscapeBorderColor: #717171;
-    --photoshopBgColor: #001834;
-    --photoshopBorderColor: #00AAFF;
+    --yellowColor: #FFFF00;
+    --yellowColorTwo: #FFF4C5;
+    --yellowColorThree: #FEDA3E;
 }
 
 ul {
@@ -239,7 +239,7 @@ nav {
     padding: 6rem 0 0 0;
     color: var(--whiteColor);
     background-color: var(--secundaryColor);
-    border-top: 50px solid var(--inkscapeBorderColor)
+    border-top: 50px solid var(--grayColorThree)
 }
 
 #about .content {
@@ -333,49 +333,49 @@ nav {
 .html__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenDarkColor) 75%, var(--greenColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
     border: 0;
     border-radius: 5px;
 }
 .css__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenDarkColor) 75%, var(--greenColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
     border: 0;
     border-radius: 5px;
 }
 .js__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueDarkColor) 75%, var(--blueColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueColorTwo) 75%, var(--blueColor));
     border: 0;
     border-radius: 5px;
 }
 .react__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueDarkColor) 75%, var(--blueColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueColorTwo) 75%, var(--blueColor));
     border: 0;
     border-radius: 5px;
 }
 .bootstrap__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenDarkColor) 75%, var(--greenColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
     border: 0;
     border-radius: 5px;
 }
 .animate__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenDarkColor) 75%, var(--greenColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
     border: 0;
     border-radius: 5px;
 }
 .scrollreveal__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueDarkColor) 75%, var(--blueColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueColorTwo) 75%, var(--blueColor));
     border: 0;
     border-radius: 5px;
 }
@@ -396,21 +396,21 @@ nav {
 .bubble__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueDarkColor) 75%, var(--blueColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueColorTwo) 75%, var(--blueColor));
     border: 0;
     border-radius: 5px;
 }
 .inkscape__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenDarkColor) 75%, var(--greenColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
     border: 0;
     border-radius: 5px;
 }
 .photoshop__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenDarkColor) 75%, var(--greenColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
     border: 0;
     border-radius: 5px;
 }
@@ -627,72 +627,72 @@ dialog {
 }
 
 #modal__html {
-    background-color: var(--htmlBgColor);
-    border: solid 7px var(--htmlBorderColor);
+    background-color: var(--orangeColorTwo);
+    border: solid 7px var(--orangeColorThree);
 }
 
 #modal__css {
-    background-color: var(--cssBgColor);
-    border: solid 7px var(--cssBorderColor);
+    background-color: var(--blueColorThree);
+    border: solid 7px var(--blueColorFour);
     color: var(--whiteColor);
 }
 
 #modal__js {
-    background-color: var(--jsBgColor);
-    border: solid 7px var(--jsBorderColor);
+    background-color: var(--yellowColorTwo);
+    border: solid 7px var(--yellowColorThree);
 }
 
 #modal__react {
-    background-color: var(--reactBgColor);
-    border: solid 7px var(--reactBorderColor);
+    background-color: var(--blueColorFive);
+    border: solid 7px var(--blueColorSix);
 }
 
 #modal__bootstrap {
-    background-color: var(--bootstrapBgColor);
+    background-color: var(--lilacColor);
     color: var(--whiteColor);
-    border: solid 7px var(--bootstrapBorderColor);
+    border: solid 7px var(--lilacColorTwo);
 }
 
 #modal__animate {
     background-color: var(--blackColor);
     color: var(--whiteColor);
-    border: solid 7px var(--bloggerBgColor);
+    border: solid 7px var(--orangeColorFour);
 }
 
 #modal__scrollreveal {
     background-color: var(--blackColor);
     color: var(--whiteColor);
-    border: solid 7px var(--photoshopBgColor);
+    border: solid 7px var(--blueColorEleven);
 }
 
 #modal__blogger {
-    background-color: var(--bloggerBgColor);
+    background-color: var(--orangeColorFour);
     color: var(--whiteColor);
-    border: solid 7px var(--bloggerBorderColor);
+    border: solid 7px var(--orangeColorFive);
 }
 
 #modal__wordpress {
-    background-color: var(--wordpressBgColor);
+    background-color: var(--blueColorSeven);
     color: var(--whiteColor);
-    border: solid 7px var(--wordpressBorderColor);
+    border: solid 7px var(--blueColorEight);
 }
 
 #modal__bubble {
-    background-color: var(--bubbleBgColor);
+    background-color: var(--blueColorNine);
     color: var(--whiteColor);
-    border: solid 7px var(--bubbleBorderColor);
+    border: solid 7px var(--blueColorTen);
 }
 
 #modal__inkscape {
     background-color: var(--grayColor);
     color: var(--blackColor);
-    border: solid 7px var(--inkscapeBorderColor);
+    border: solid 7px var(--grayColorThree);
 }
 
 #modal__photoshop {
-    background-color: var(--photoshopBgColor);
+    background-color: var(--blueColorEleven);
     color: var(--whiteColor);
-    border: solid 7px var(--photoshopBorderColor);
+    border: solid 7px var(--blueColorTwelve);
 }
 
 .button__close__modal {
@@ -734,7 +734,7 @@ dialog {
 
     #about {
         background-image: none;
-        border-top: 5px solid var(--inkscapeBorderColor);
+        border-top: 5px solid var(--grayColorThree);
         padding: 0;
     }
 
