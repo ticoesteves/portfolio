@@ -13,7 +13,6 @@
     --whiteColor: #fff;
     --grayColor: #EDEEF1;
     --grayColorTwo: #717171;
-    --grayColorThree: #717171;
     --blackColor: #000;
     --blueColor: #00BFFF;
     --blueColorTwo: #4169E1;
@@ -239,7 +238,7 @@ nav {
     padding: 6rem 0 0 0;
     color: var(--whiteColor);
     background-color: var(--secundaryColor);
-    border-top: 50px solid var(--grayColorThree)
+    border-top: 50px solid var(--grayColorTwo)
 }
 
 #about .content {
@@ -330,91 +329,34 @@ nav {
     color: var(--orangeColor);
     font-size: 26px;
 }
-.html__skills {
-    width: 100%;
-    height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
-    border: 0;
-    border-radius: 5px;
-}
-.css__skills {
-    width: 100%;
-    height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
-    border: 0;
-    border-radius: 5px;
-}
-.js__skills {
+.basic__skills {
     width: 100%;
     height: 25px;
     background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueColorTwo) 75%, var(--blueColor));
     border: 0;
     border-radius: 5px;
 }
-.react__skills {
-    width: 100%;
-    height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueColorTwo) 75%, var(--blueColor));
-    border: 0;
-    border-radius: 5px;
-}
-.bootstrap__skills {
+.intermediary__skills {
     width: 100%;
     height: 25px;
     background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
     border: 0;
     border-radius: 5px;
 }
-.animate__skills {
-    width: 100%;
-    height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
-    border: 0;
-    border-radius: 5px;
-}
-.scrollreveal__skills {
-    width: 100%;
-    height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueColorTwo) 75%, var(--blueColor));
-    border: 0;
-    border-radius: 5px;
-}
-.wordpress__skills {
+.advanced__skills {
     width: 100%;
     height: 25px;
     background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--orangeColor) 75%, var(--yellowColor));
     border: 0;
     border-radius: 5px;
 }
-.blogger__skills {
+.best__skills {
     width: 100%;
     height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--orangeColor) 75%, var(--yellowColor));
+    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--orangeColor) 75%, var(--orangeColorFive));
     border: 0;
     border-radius: 5px;
 }
-.bubble__skills {
-    width: 100%;
-    height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--blueColorTwo) 75%, var(--blueColor));
-    border: 0;
-    border-radius: 5px;
-}
-.inkscape__skills {
-    width: 100%;
-    height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
-    border: 0;
-    border-radius: 5px;
-}
-.photoshop__skills {
-    width: 100%;
-    height: 25px;
-    background-image: linear-gradient(to right, var(--whiteColor), var(--primaryColor) 75%, var(--greenColorTwo) 75%, var(--greenColor));
-    border: 0;
-    border-radius: 5px;
-}
-
 .skills__balls {
     display: flex;
     justify-content: space-between;
@@ -647,6 +589,16 @@ dialog {
     border: solid 7px var(--blueColorSix);
 }
 
+#modal__git {
+    background-color: var(--yellowColorTwo);
+    border: solid 7px var(--orangeColorTwo);
+}
+
+#modal__github {
+    background-color: var(--grayColor);
+    border: solid 7px var(--grayColorTwo);
+}
+
 #modal__bootstrap {
     background-color: var(--lilacColor);
     color: var(--whiteColor);
@@ -686,7 +638,7 @@ dialog {
 #modal__inkscape {
     background-color: var(--grayColor);
     color: var(--blackColor);
-    border: solid 7px var(--grayColorThree);
+    border: solid 7px var(--grayColorTwo);
 }
 
 #modal__photoshop {
@@ -734,7 +686,7 @@ dialog {
 
     #about {
         background-image: none;
-        border-top: 5px solid var(--grayColorThree);
+        border-top: 5px solid var(--grayColorTwo);
         padding: 0;
     }
 
